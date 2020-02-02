@@ -1,0 +1,21 @@
+{
+
+    "path": {
+        "basic":    "source/basics/",
+        "page":     "source/pages/",
+        "tag":      "source/tags/",
+        
+        "static":   "ready/static/",
+        "template": "ready/template/"
+    },
+
+    "routs": [
+        "index"
+    ],
+    
+    "setting": {
+        "sass": "scss",
+        "compression": " lvl0 / lvl1 / lvl2 / lvl3 "
+    }
+
+}

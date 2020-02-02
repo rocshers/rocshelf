@@ -1,0 +1,44 @@
+
+<!-- sets which template (basic_name) to inherit-->
+{merge{ basic_name }merge}
+
+{src{
+    "script": {
+        "prep": [""],
+        "final": [""]
+    },
+    "style": {
+        "prep": [""],
+        "final": [""]
+    }
+}src}
+
+{vars{
+    "key": "value",
+}vars}
+
+<tag-name>
+    
+    {vars{
+        "key": "value",
+    }vars}
+
+    <t-text-strong добавит="атрибут">
+        1) Заменит тег t на strong
+        2) Заменит текст в t на этот
+        3) Вставит {i{ key }}
+    </t-text-strong>
+
+</tag-name>
+
+
+{final{
+    <tag-name_two>
+        Этот текст появится после загрузки всей страницы
+    </tag-name_two>
+}final}
+
+{parallel{
+    <script>/*если есть тег, то грузить*/</script>
+    <style>/*если есть тег, то грузить*/</style>
+}parallel}

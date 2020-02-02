@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="description" content="{i{ description }}"/>
+        <meta name="keywords"    content="{i{ keywords }}"/>
+
+        <title>{i{ title }}</title>
+
+        <!-- this is the place to insert downl_link 'prep' file-->
+        {place{}prep}
+    </head>
+    <body>
+
+        <!--
+            top level variables.
+            variables are inherited from BASIC to PAGE and to TAGS respectively.
+            IMPORTANT! variables will be inherited up to parallel files attached to TAGS.
+        -->
+        {vars{
+            "key": "value"
+        }vars}
+        
+        <!-- this is the place to insert page_code-->
+        {place{}merge} 
+        
+        <!-- 
+            enter here links to files that need to be downloaded at a specific time
+        -->
+        {src{
+            "script": {
+                "prep": [""],
+                "final": [""]
+            },
+            "style": {
+                "prep": [""],
+                "final": [""]
+            }
+        }src}
+        
+    </body>
+
+<!-- this is the place to insert downl_link 'final' file-->
+{place{}final}
+
+</html>

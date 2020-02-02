@@ -1,0 +1,26 @@
+{
+    "path": {
+        "core": {
+            "core": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/rocshelf/core/",
+            "layouts": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/rocshelf/core/layouts_files/",
+            "trans": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/rocshelf/core/transition/",
+            "pycache": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/rocshelf/core/__pycache__/"
+        },
+        "user": {
+            "user": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/",
+            "basic": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/source/basics/",
+            "page": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/source/pages/",
+            "tag": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/source/tags/",
+            "static": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/ready/static/",
+            "template": "/home/rocshers/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projects/ready/template/"
+        }
+    },
+    "setting": {
+        "compression": " lvl0 / lvl1 / lvl2 / lvl3 ",
+        "use_sass": "scss",
+        "ignor_sass": "sass"
+    },
+    "routs": [
+        "index"
+    ]
+}
